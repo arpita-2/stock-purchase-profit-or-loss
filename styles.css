@@ -2,86 +2,81 @@
 
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  * {
-    text-align: center;
-    
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary-color: #ff9966
-    font-family: "Poppins", sans-serif;
+  --primary-color: #7F1D1D;
+  --color: #993300;
 }
 
 body {
-    background-color: var(--primary-color);
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: var(--color) ;
 }
 
-    header h1 {
-        text-align: center;
-        padding: 1rem;
-    }
-    .input-label {
-        display: block;
-        font-size: larger;
-        margin: 2rem 0px;
-        font-weight: 600;
-      }
-      
-      .input {
-        font-size: medium;
-        display: block;
-        outline: #fff;
-        padding: 0.6rem 1rem;
-        margin: 1rem auto;
-        border: 2px solid var(--primary-color);
-        border-radius: 0.5rem;
-        width: 100%;
-        max-width: 325px;
-        font-family: 'Poppins', sans-serif;
-      }
-      
-      .btn-check {
-        background-color: #992600;
-        border: none;
-        color: #fff;
-        padding: 0.7rem 1rem;
-        border-radius: 0.5rem;
-        font-size: large;
-        cursor: pointer;
-        outline: #fff;
-        margin: auto;
-        display: block;
-      }
-      
-      .output {
-        font-size: x-large;
-        font-weight: 600;
-        margin: 2rem 0;
-        padding: 1rem;
-      }
-      
-      
-      
-      footer {
-        text-align: center;
-        padding: 1rem;
-        background-color: #fff;
-      
-      }
-      
-      footer p {
-        font-size: large;
-        text-align: center;
-      }
-      
-      .footer-list {
-        margin: 1rem;
-      }
-        
+
+header h1 {
+  text-align: center;
+  padding: 1rem;
+  
+
+}
+
+.input-label {
+  display: block;
+  font-size: larger;
+  margin: 2rem 0px;
+  font-weight: 600;
+}
+
+.input {
+  font-size: medium;
+  display: block;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 325px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  margin-top: 4rem;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+ 
